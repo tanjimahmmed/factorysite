@@ -21,15 +21,15 @@
             responsive:{
                 0:{
                     items:1,
-                    nav:true
+                    nav:false
                 },
                 600:{
                     items:1,
-                    nav:true
+                    nav:false
                 },
                 1000:{
                     items:5,
-                    nav:true,
+                    nav:false,
                     loop:true
                 }
             }
@@ -53,6 +53,8 @@
 
         new WOW().init();
 
+
+      
         // -- End work -- //
 
     });

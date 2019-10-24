@@ -14,8 +14,51 @@
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
+    .site_logo {
+        font-size: 14px;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .main_menu{
+        display: none;
+    }
+    .menu-opened{
+        display: none;
+    }
+    .main_menu li {
+        display: block;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .main_menu li:last-child {
+        border-bottom: none;
+    }
+    .main_menu li:hover > a {
+        border: none;
+    }
+    .main_menu li a {
+        text-align: center;
+    }
     .header_top, header_top a {
         display: none;
+    }
+    .menu-toggle{
+        position: absolute;
+        top: 10px;
+        right: 40px;
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+    }
+    .menu-toggle span{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .menu-toggle i{
+        font-size: 35px;
+        color: #1f1f1f;
     }
     .single_slide_item h2 {
         font-size: 25px;
@@ -72,7 +115,7 @@
         width: 300px;
     }
     .single_team_member {
-        margin-left: 18%;
+        margin-left: 9%;
     }
     /* .header_area {
         padding-bottom: 12px;

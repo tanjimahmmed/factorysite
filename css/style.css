@@ -633,3 +633,6 @@ h3.widget_title ul li {padding-left: 50px;}
     cursor: pointer;
     display: none;
 } */
+.menu-toggle {
+    display: none;
+}
